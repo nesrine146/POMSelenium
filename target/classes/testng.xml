@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Application Test Automation Test Suite">
+
+        <listeners>
+            <listener
+                class-name="reports.ExtentReportListener"/>
+        </listeners>
+
+    <test name="App Test Cases">
+     
+        <classes>
+      
+           <class name="testCases.LoginPageTest"/>
+           <class name="testCases.HomePageTest"/>
+           <class name="testCases.ContactsPageTest"/>
+      
+        </classes>
+      
+    </test> 
+  
+</suite>   
+   
+  
